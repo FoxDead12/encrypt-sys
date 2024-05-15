@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Robot';
+  src: url('./font/Roboto-Black.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Robot';
+  src: url('./font/Roboto-Bold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Robot';
+  src: url('./font/Roboto-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Robot';
+  src: url('./font/Roboto-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Robot';
+  src: url('./font/Roboto-Thin.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  display: block;
+  overflow: hidden;
+  background-color: #eee;
+}
+
+:root {
+  --black-color:  #131B23;
+  --gray-color:   #E9F1F7;
+  --blue-color:   #2274A5;
+  --yellow-color: #E7DFC6;
+  --brow-color:   #816C61;
+}
