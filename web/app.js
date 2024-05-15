@@ -48,7 +48,7 @@ export class App extends LitElement {
   }
 
   firstUpdated () {
-    this.load_component("sys-encrypt-page-comp")
+    this.load_component("hash-page-comp")
   }
 
   async load_component (cmp) {
